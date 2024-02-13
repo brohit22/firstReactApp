@@ -18,6 +18,7 @@ export const TodoContext = createContext({
 });
 
 export const useTodo = () => {
+  // console.log('tODOcONTEXT', TodoContext);
   return useContext(TodoContext);
 };
 

@@ -5,6 +5,7 @@ function TodoForm() {
   const [todo, setTodo] = useState();
   const { addTodo } = useTodo();
 
+  // console.log('ustodo : ', addTodo);
   const add = (e) => {
     e.preventDefault();
 
