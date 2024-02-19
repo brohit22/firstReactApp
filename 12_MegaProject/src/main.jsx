@@ -8,6 +8,10 @@ import store from './store/store.js';
 import { AuthLayout } from './components/index.js';
 import Home from './pages/Home.jsx';
 import Signup from './pages/Signup.jsx';
+import Login from './pages/Login.jsx';
+import AllPosts from './pages/AllPosts.jsx';
+import AddPost from './pages/AddPost.jsx';
+import EditPost from './pages/EditPost.jsx';
 
 const router = createBrowserRouter([
   {
@@ -61,10 +65,10 @@ const router = createBrowserRouter([
           </AuthLayout>
         ),
       },
-      {
-        path: '/post/:slug',
-        element: <Post />,
-      },
+      // {
+      //   path: '/post/:slug',
+      //   element: <Post />,
+      // },
     ],
   },
 ]);
